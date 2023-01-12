@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Todo</title>
+</head>
+
+<body class="bg-indigo-600">
+    <nav class="flex justify-between px-3 py-10">
+        <a href="index.html">
+            <img src="images/task_icon.png" alt="" class="h-10 invert">
+        </a>
+        <a href="">
+            <img src="images/avatar_1.jpg" alt="" class="h-10 rounded-full">
+        </a>
+    </nav>
+    <main>
+        <!-- bg-purple section -->
+        <section class="text-white px-3">
+            <div>
+                <select name="" id="selector" class="bg-transparent -ml-1">
+                    <option value="" selected class="">My roommates</option>
+                    <option value="" class="text-black">Jane</option>
+                    <option value="" class="text-black">Joe</option>
+                    <option value="" class="text-black">Alan</option>
+                </select>
+            </div>
+            <div class="flex justify-between mt-4">
+                <h2 class="font-bold text-2xl py-2">To-do list</h2>
+                <button class="bg-white text-indigo-600 rounded-lg px-2">
+                    <p class="font-bold">21</p>
+                    <p>Sep</p>
+                </button>
+            </div>
+            <select name="" id="selector" class="bg-transparent mt-2 -ml-1">
+                <option value="" selected class="">September</option>
+            </select>
+            <div class="py-3 flex flex-nowrap gap-x-4 overflow-auto">
+                <button
+                    class=" bg-white bg-opacity-20 focus:bg-opacity-100 focus:text-indigo-600 rounded-lg py-2 basis-12 shrink-0">
+                    <p class="font-bold leading-tight text-lg">21</p>
+                    <p class="text-xs">Fr</p>
+                </button>
+                <button
+                    class=" bg-white bg-opacity-20 focus:bg-opacity-100 focus:text-indigo-600 rounded-lg py-2 basis-12 shrink-0">
+                    <p class="font-bold leading-tight text-lg">21</p>
+                    <p class="text-xs">Fr</p>
+                </button>
+                <button
+                    class=" bg-white bg-opacity-20 focus:bg-opacity-100 focus:text-indigo-600 rounded-lg py-2 basis-12 shrink-0">
+                    <p class="font-bold leading-tight text-lg">21</p>
+                    <p class="text-xs">Fr</p>
+                </button>
+                <button
+                    class=" bg-white bg-opacity-20 focus:bg-opacity-100 focus:text-indigo-600 rounded-lg py-2 basis-12 shrink-0">
+                    <p class="font-bold leading-tight text-lg">21</p>
+                    <p class="text-xs">Fr</p>
+                </button>
+                <button
+                    class=" bg-white bg-opacity-20 focus:bg-opacity-100 focus:text-indigo-600 rounded-lg py-2 basis-12 shrink-0">
+                    <p class="font-bold leading-tight text-lg">21</p>
+                    <p class="text-xs">Fr</p>
+                </button>
+                <button
+                    class=" bg-white bg-opacity-20 focus:bg-opacity-100 focus:text-indigo-600 rounded-lg py-2 basis-12 shrink-0">
+                    <p class="font-bold leading-tight text-lg">21</p>
+                    <p class="text-xs">Fr</p>
+                </button>
+                <button
+                    class=" bg-white bg-opacity-20 focus:bg-opacity-100 focus:text-indigo-600 rounded-lg py-2 basis-12 shrink-0">
+                    <p class="font-bold leading-tight text-lg">21</p>
+                    <p class="text-xs">Fr</p>
+                </button>
+                <button
+                    class=" bg-white bg-opacity-20 focus:bg-opacity-100 focus:text-indigo-600 rounded-lg py-2 basis-12 shrink-0">
+                    <p class="font-bold leading-tight text-lg">21</p>
+                    <p class="text-xs">Fr</p>
+                </button>
+                <button
+                    class=" bg-white bg-opacity-20 focus:bg-opacity-100 focus:text-indigo-600 rounded-lg py-2 basis-12 shrink-0">
+                    <p class="font-bold leading-tight text-lg">21</p>
+                    <p class="text-xs">Fr</p>
+                </button>
+
+            </div>
+        </section>
+
+        <!-- bg-white section -->
+        <section class="bg-slate-50 rounded-t-lg mt-3 p-3 pt-5">
+            <div class="flex flex-cols-2 place-content-around  gap-x-2">
+                <button
+                    class="focus:border-indigo-600 focus:font-semibold hover:border-indigo-600 hover:font-semibold  border-b-2 border-transparent w-full pb-2">
+                    All tasks
+                    <span class="hover:text-indigo-600 focus:text-indigo-600 text-black bg-slate-200 rounded px-2 text-sm">5</span>
+                </button>
+                <button
+                    class="focus:border-indigo-600 focus:font-semibold hover:border-indigo-600 hover:font-semibold  border-b-2 border-transparent w-full pb-2">
+                    My tasks
+                    <span class="hover:text-indigo-600 focus:text-indigo-600 text-black bg-slate-200 rounded px-2 text-sm">3</span>
+                </button>
+            </div>
+            <ul class="py-4 leading-tight">
+                <li class="relative flex justify-between items-center p-4 mb-4 font-bold bg-white rounded-lg shadow-md">
+                    <div class="absolute -top-2 bg-teal-500 rounded font-normal text-white text-xs px-1.5">
+                        <p>
+                            new
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Buy paper
+                        </p>
+                        <span class="text-xs font-normal text-indigo-600">
+                            Until 26 sep
+                        </span>
+                    </div>
+                    <div class="w-8">
+                        <svg width="30px" height="30px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#4f46e5"
+                                d="M256 23.05C127.5 23.05 23.05 127.5 23.05 256S127.5 488.9 256 488.9 488.9 384.5 488.9 256 384.5 23.05 256 23.05zm0 17.9c118.9 0 215.1 96.15 215.1 215.05S374.9 471.1 256 471.1c-118.9 0-215.05-96.2-215.05-215.1C40.95 137.1 137.1 40.95 256 40.95z" />
+                        </svg>
+                    </div>
+                </li>
+                <li class="relative flex justify-between items-center p-4 mb-4 font-bold bg-white rounded-lg shadow-md">
+                    <div class="absolute -top-2 bg-teal-500 rounded font-normal text-white text-xs px-1.5">
+                        <p>
+                            new
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            Wash dishes
+                        </p>
+                        <span class="text-xs font-normal text-indigo-600">
+                            Today
+                        </span>
+                    </div>
+                    <div class="w-8">
+                        <svg width="30px" height="30px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#4f46e5"
+                                d="M256 23.05C127.5 23.05 23.05 127.5 23.05 256S127.5 488.9 256 488.9 488.9 384.5 488.9 256 384.5 23.05 256 23.05zm0 17.9c118.9 0 215.1 96.15 215.1 215.05S374.9 471.1 256 471.1c-118.9 0-215.05-96.2-215.05-215.1C40.95 137.1 137.1 40.95 256 40.95z" />
+                        </svg>
+                    </div>
+                </li>
+                <li class="flex justify-between items-center p-4 mb-4 font-bold bg-white rounded-lg shadow-md">
+                    <div>
+                        <p>
+                            Clean kitchen
+                        </p>
+                        <span class="text-xs font-normal text-indigo-600">
+                            Today
+                        </span>
+                    </div>
+                    <div class="w-8">
+                        <svg width="30px" height="30px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#4f46e5"
+                                d="M256 23.05C127.5 23.05 23.05 127.5 23.05 256S127.5 488.9 256 488.9 488.9 384.5 488.9 256 384.5 23.05 256 23.05zm0 17.9c118.9 0 215.1 96.15 215.1 215.05S374.9 471.1 256 471.1c-118.9 0-215.05-96.2-215.05-215.1C40.95 137.1 137.1 40.95 256 40.95z" />
+                        </svg>
+                    </div>
+                </li>
+                <li class="flex justify-between items-center p-4 mb-4 font-bold bg-white rounded-lg shadow-md">
+                    <div>
+                        <p>
+                            Pay utilities
+                        </p>
+                        <span class="text-xs font-normal text-indigo-600">
+                            Today
+                        </span>
+                    </div>
+                    <div class="w-8">
+                        <svg width="30px" height="30px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#4f46e5"
+                                d="M256 23.05C127.5 23.05 23.05 127.5 23.05 256S127.5 488.9 256 488.9 488.9 384.5 488.9 256 384.5 23.05 256 23.05zm0 17.9c118.9 0 215.1 96.15 215.1 215.05S374.9 471.1 256 471.1c-118.9 0-215.05-96.2-215.05-215.1C40.95 137.1 137.1 40.95 256 40.95z" />
+                        </svg>
+                    </div>
+                </li>
+                <li class="flex justify-between items-center p-4 mb-4 font-bold bg-white rounded-lg shadow-md">
+                    <div>
+                        <p>
+                            Buy food
+                        </p>
+                        <span class="text-xs font-normal text-indigo-600">
+                            Today
+                        </span>
+                    </div>
+                    <div class="w-8">
+                        <!-- <svg width="30px" height="30px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#4f46e5"
+                                d="M256 23.05C127.5 23.05 23.05 127.5 23.05 256S127.5 488.9 256 488.9 488.9 384.5 488.9 256 384.5 23.05 256 23.05zm0 17.9c118.9 0 215.1 96.15 215.1 215.05S374.9 471.1 256 471.1c-118.9 0-215.05-96.2-215.05-215.1C40.95 137.1 137.1 40.95 256 40.95z" />
+                        </svg> -->
+                        <img src="images/avatar_2.jpg" alt="">
+                    </div>
+                </li>
+            </ul>
+
+            <div class="flex justify-end">
+                <button class="rounded-lg p-4 bg-indigo-600 text-white font-bold">
+                    <img src="images/plus.png" alt="" class="invert h-8">
+                </button>
+            </div>
+        </section>
+
+        <!-- add task -->
+        <div class="hidden inset-0 fixed backdrop-blur bg-black bg-opacity-20">
+            <div class="flex  flex-col w-full h-full justify-end">
+                <div class="relative bg-white rounded-t-3xl p-4">
+                    <button class="absolute top-4 right-4 opacity-30">
+                        <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px"
+                            height="24px">
+                            <path
+                                d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z" />
+                        </svg>
+                    </button>
+                    <h1 class="font-bold text-2xl text-center py-3">Add task</h1>
+                    <input type="text" placeholder="Name" class="w-full my-2 border-slate-200 border rounded-lg p-2">
+                    <div class="relative my-2">
+                        <textarea name="" id="" cols="30" rows="5" placeholder="Task description..."
+                            class="w-full border-slate-200 border rounded-lg p-2">
+                        </textarea>
+                        <div class="flex absolute bottom-4 right-4 opacity-30">
+                            <button class="w-8 h-8 hover:bg-slate-300 rounded-full p-1.5">
+                                <img src="images/list.png" alt="">
+                            </button>
+                            <button class="w-8 h-8 hover:bg-slate-300 rounded-full p-1.5">
+                                <img src="images/attach.png" alt="">
+                            </button>
+                            <button class="w-8 h-8 hover:bg-slate-300 rounded-full p-1.5">
+                                <img src="images/camera.png" alt="">
+                            </button>
+                            <button class="flex items-center w-8 h-8 hover:bg-slate-300 rounded-full p-1.5">
+                                <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px"
+                                    height="24px">
+                                    <path
+                                        d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="flex justify-between text-slate-400 text-sm">
+                        <button
+                            class="border-slate-200 border rounded-lg p-2 py-2 px-3.5 active:bg-indigo-600 active:text-white">
+                            Today
+                        </button>
+                        <button
+                            class="border-slate-200 border rounded-lg p-2 py-2 px-3.5 active:bg-indigo-600 active:text-white">
+                            Tomorrow
+                        </button>
+                        <button
+                            class="border-slate-200 border rounded-lg p-2 py-2 px-3.5 active:bg-indigo-600 active:text-white">
+                            This weekend
+                        </button>
+                        <button class="border-slate-200 border rounded-lg p-2 active:bg-indigo-600 group">
+                            <img src="images/planner.png" alt=""
+                                class="h-6 w-6 opacity-30 group-active:invert group-active:opacity-100">
+                        </button>
+                    </div>
+                    <div class="flex justify-end py-7 text-slate-400">
+                        <label for="priority" class="px-2">High priority</label>
+                        <input type="checkbox" id="priority" name="" value="" class="opacity-60 w-5">
+                    </div>
+                    <div class="">
+                        <button class="w-full rounded-lg py-4 bg-indigo-600 text-white font-bold">
+                            Add task
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- roommate profile -->
+        <div class="">
+            <div class="bg-indigo-600 text-white font-bold  text-lg text-center py-10">
+                <div class="relative">
+                    <h1>Roommate profile</h1>
+                    <button class="absolute top-0 left-4">
+                        <img src="images/chevron-left.png" alt="" class="invert">
+                    </button>
+                </div>
+            </div>
+            <div class=" bg-slate-50 rounded-t-lg mt-8 p-3 pt-5">
+                <div class="w-full -mt-16">
+                    <img src="images/avatar_2.jpg" alt="" class="mx-auto h-28 rounded-full">
+                </div>
+                <h1 class="text-center text-2xl font-bold py-2">Oleh Sokol</h1>
+                <div class="flex justify-center gap-x-4">
+                    <span>⭐ 5.0</span>
+                    <span>🎂 12 April</span>
+                </div>
+                <div class="flex flex-cols-2 place-content-around  gap-x-2 mt-8">
+                    <button
+                        class="focus:border-b-2 focus:border-indigo-600 focus:font-semibold hover:border-b-2 hover:border-indigo-600 hover:font-semibold w-full py-2">
+                        In progress
+                        <span class="focus:bg-indigo-200 hover:bg-indigo-200 hover:text-indigo-600 focus:text-indigo-600 text-black bg-slate-200 rounded px-2 text-sm">4</span>
+                    </button>
+                    <button
+                        class="focus:border-b-2 focus:border-indigo-600 focus:font-semibold hover:border-b-2 hover:border-indigo-600 hover:font-semibold w-full py-2">
+                        Completed
+                        <span class="focus:bg-indigo-200 hover:bg-indigo-200 hover:text-indigo-600 focus:text-indigo-600 text-black bg-slate-200 rounded px-2 text-sm">127</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+</body>
+
+<script src="script.js"></script>
+
+
+</html>
